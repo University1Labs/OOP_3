@@ -1,0 +1,94 @@
+.form{
+    padding-top:10px;
+    text-align: center;
+}
+.add{
+    padding-top:15px;
+    padding-bottom: 30px;;
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    div{
+        margin-right:30px;
+    }
+}
+
+.btn{
+    padding-top:20px;
+    button{
+        background-color: #13aa52;
+        border: 1px solid #13aa52;
+        border-radius: 4px;
+        box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        outline: none;
+        outline: 0;
+        padding: 10px 25px;
+        text-align: center;
+        transform: translateY(0);
+        transition: transform 150ms, box-shadow 150ms;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+    }
+    button:hover{
+        box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+        transform: translateY(-2px);
+    }
+}
+.name input{
+    height: 25px;
+    width:300px;
+    margin-bottom: 10px;
+}
+.price input{
+    height: 25px;
+    width:150px;
+    margin-bottom: 10px;
+}
+.description textarea{
+    height:100px;
+    width:300px;
+    margin-bottom: 20px;
+}
+.brand select{
+    width: 100%;
+    min-width: 15ch;
+    max-width: 30ch;
+    border: 1px solid black;
+    border-radius: 0.25em;
+    padding: 0.25em 0.5em;
+    font-size: 14px;
+    cursor: pointer;
+    line-height: 1.1;
+    background-color: #fff;
+    background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+    margin-bottom: 10px;
+}
+.type select{
+    width: 100%;
+    min-width: 15ch;
+    max-width: 30ch;
+    border: 1px solid black;
+    border-radius: 0.25em;
+    padding: 0.25em 0.5em;
+    font-size: 14px;
+    cursor: pointer;
+    line-height: 1.1;
+    background-color: #fff;
+    background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+    margin-bottom: 10px;
+}
+.type span{
+    margin-right: 10px;
+    font-size:18px;
+}
+.brand span{
+    margin-right: 10px;
+    font-size:18px; 
+}

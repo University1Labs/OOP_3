@@ -1,0 +1,32 @@
+.img{
+    text-align: center;
+    overflow: hidden;
+    min-height: calc(100% - 60px);
+    img{
+        max-width:200px;
+        max-height:300px;
+        object-fit:contain;
+    }
+}
+.card{
+    text-decoration: none;
+    color:black;
+    border:2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding:15px;
+    margin:15px;
+}
+
+.price{
+    font-weight: 700;
+}
+.title{
+    overflow: hidden;
+    max-width: 300px;
+    text-overflow: ellipsis;
+    padding-top:10px;
+    font-size:18px;
+    padding-bottom: 5px;
+    white-space: nowrap;
+}

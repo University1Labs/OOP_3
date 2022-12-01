@@ -1,0 +1,41 @@
+.auth{
+    display: flex;
+    justify-content: center;
+    &__form{
+        border: 2px solid rgb(72, 133, 255);
+        padding:50px;
+        border-radius: 10px;
+        background-color: rgba(248, 255, 255, 0.915);
+        &__email{
+            margin-bottom: 15px;
+            input{
+                height:20px;
+                width:200px;
+            }
+        }
+        &__password{
+            input{
+                height:20px;
+                width:200px;
+            }
+        }
+        &__button{
+            padding-top:20px;
+            text-align: center;
+            button{
+                padding:5px 15px;
+            }
+        }
+    }
+}
+.title{
+    font-weight: 700;
+    font-size:24px;
+    text-align: center;
+    padding-top:50px;
+    padding-bottom:30px;
+}
+.error{
+    padding-top:10px;
+    text-align: center;
+}
